@@ -3,31 +3,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <url>
-        <loc>https://phumelele-1103.github.io/WEDE-POE/</loc>
+        <loc>https://phumelele-1103.github.io/POE/</loc>
     </url>
 
     <url>
-        <loc>https://phumelele-1103.github.io/WEDE-POE/index.html</loc>
+        <loc>https://phumelele-1103.github.io/POE/About.html</loc>
     </url>
 
     <url>
-        <loc>https://phumelele-1103.github.io/WEDE-POE/About.html</loc>
+        <loc>https://phumelele-1103.github.io/POE/Services.html</loc>
     </url>
 
     <url>
-        <loc>https://phumelele-1103.github.io/WEDE-POE/Services.html</loc>
+        <loc>https://phumelele-1103.github.io/POE/Contact.html</loc>
     </url>
 
     <url>
-        <loc>https://phumelele-1103.github.io/WEDE-POE/Contact.html</loc>
+      <loc>https://phumelele-1103.github.io/POE/Enquiry.html</loc>
     </url>
 
     <url>
-      <loc>https://phumelele-1103.github.io/WEDE-POE/Enquiry.html</loc>
-    </url>
-
-    <url>
-      <loc>https://phumelele-1103.github.io/WEDE-POE/CommentBox.html</loc>
+      <loc>https://phumelele-1103.github.io/POE/CommentBox.html</loc>
     </url>
 
 </urlset>
