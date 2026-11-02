@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap:
+https://phumelele-1103.github.io/WEDE-POE/sitemap.xml
