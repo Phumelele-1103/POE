@@ -1,0 +1,63 @@
+ <!--Date 04 August 2026-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/StyleSheet.css">
+    <script src="Script.js" defer></script>
+    <title>Suggestion and comment box</title>
+  </head>
+
+  <div class="Navigation">
+  <nav >
+    <a href="Index.html">Home</a>
+    <a href="About.html">About us</a>
+    <a href="Services.html">Services</a>
+    <a href="Contact.html">Contact</a>
+    <a href="Enquiry.html">Enquire</a>
+  </nav>
+  </div>
+  <br><br>
+<body>
+  <form id="form" novalidate>
+    <!-- Name -->
+    <lable for="name">Name: </lable>
+    <input type="text" id="name" name="name" placeholder="John Doe" required>
+    <small id="nameError" class="error"></small>
+    <br><br>
+
+    <!-- Email -->
+    <label for="email">Email Address: </label>
+    <input type="text" id="email" name="email" placeholder="johndoe1@email.com" required>
+    <small id="emailError" class="error"></small>
+    <br><br>
+    
+    <!-- Cellphone -->
+    <label for="cellphone">Cellphone Number: </label>
+    <input type="text" id="cellphone" name="cellphone" placeholder="0723456789" required>
+    <small id="cellphoneError" class="error"></small>
+    <br><br>
+    <!-- Gender -->
+    <label for="gender">Gender: </label>
+    <input id="gender" type="radio" name="gender" value="male">
+    <label for="male">Male</label>
+    <input id="gender" type="radio" name="gender" value="female">
+    <label for="female">Female</label>
+    <br><br>
+
+    <!-- Comment -->
+    <label for="comment">Suggestion/Comment</label>
+    <br><br>
+    <textarea id="comment" cols="35"; rows="20"; name="textbox"; required></textarea>
+    <small id="commentError" class="error"></small>
+    <br>
+    <!-- Buttons -->
+    <button type="submit">Submit</button> 
+    <button type="reset">Reset</button>
+  </form>
+  <form action="./Index.html" method="get"><br>
+    <button id="home" type="home">Home</button>
+  </form>
+</body>
+</html>
