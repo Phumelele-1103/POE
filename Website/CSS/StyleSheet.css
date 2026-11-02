@@ -1,0 +1,88 @@
+/* Style Header id */
+#Header{
+  text-align: center;
+}
+
+/* Style website body */
+body{
+  text-align: center;
+  background-color: #ebd3d3;
+  font-family: Roboto, Space-Mono;
+}
+
+/* Style h1 & h2 */
+h1, h2, h3, #P1{
+  color: #bc5050c6;
+}
+
+/* Style P2 id */
+#P2{
+  text-align: right;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+/* Style content class */
+.Content{
+  
+  /*display: flex;
+  justify-content: center;
+  align-items: center;*/
+  
+  max-width: 1000px;
+  margin:0px auto;;
+  padding: 20px;
+  border: 1px solid #b8c2cc;
+  border-radius: 10px;
+  background-color: #f6a8a89b;
+}
+/* Add shade of red background color to top navigation*/ 
+.Navigation{
+  background-color: #bc5050c6;
+  overflow: hidden;
+}
+
+/* Style links inside navigation */
+.Navigation a{
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover*/
+.Navigation a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add color to the active/current link*/
+.Navigation a.active{
+  background-color: #f6a8a89b;
+  color: white;
+
+
+}
+/* Style Error Messages */
+.error {
+    color: red;
+    font-size: 13px;
+    display: block;
+    margin-top: 5px;
+}
+/* Style website footer */
+.Footer{
+  font-size: 20px;
+  text-align: center;
+  max-width: 500px;
+  margin:0px auto;
+  padding: 20px;
+  border: 1px solid #b8c2cc;
+  border-radius: 10px;
+  background-color: #bc5050c6;
+}
